@@ -9,3 +9,7 @@ Welcome to my new repository. This is repo, I create a LED Control using tkinter
 4. All Done
 
 # Image
+- Schematic View 
+<img src="https://github.com/Azizkhasyi11/Arduino-GUI/blob/main/schematic.png?raw=true" alt="drawing" width="400"/>
+- Gui Image 
+<img src="https://github.com/Azizkhasyi11/Arduino-GUI/blob/main/gui.png?raw=true" alt="drawing" width="400"/>
