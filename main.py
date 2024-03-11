@@ -3,8 +3,10 @@ from tkinter import messagebox
 import pyfirmata
 from time import sleep
 
-# Functions
-# TODO: Add more features
+
+# TODO: Before playing with this. Change the code in pyfirmata on line 185, to be 'len_args = len(inspect.getfullargspec(func)[0])'
+
+# Function
 def LedON():
     '''Turn on the LED on pin 13'''
     board.digital[13].write(1)
@@ -32,13 +34,16 @@ def LedBlink():
             board.digital[13].write(0)
             sleep(0.5)
     
-board = pyfirmata.Arduino('COM8')
+# Connect the board
+board = pyfirmata.Arduino('COM8') # Mine at COM8, change it to your port
 
+
+# Make the GUI
 win = tk.Tk()
-
 win.title("LED Control")
 win.minsize(400,60)
 
+# Label
 label = tk.Label(win, text="Click to turn ON/OFF")
 label.grid(column=1, row=1)
 
