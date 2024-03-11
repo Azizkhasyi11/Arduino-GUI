@@ -34,7 +34,7 @@ def LedBlink():
             board.digital[13].write(0)
             sleep(0.5)
     
-# Connect the board
+#TODO Change the port to your port
 board = pyfirmata.Arduino('COM8') # Mine at COM8, change it to your port
 
 
