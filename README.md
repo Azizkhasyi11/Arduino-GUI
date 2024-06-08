@@ -1,15 +1,36 @@
-# Arduino GUI Project
+
+# Arduino Gui Project
 
 Welcome to my new repository. This is repo, I create a LED Control using tkinter for a gui and pyfirmata to control it.
 
-# Todo
-1. Upload a StandarFirmata code into board
-2. Install all package from requirements.txt
-3. Change to board port to your port
-4. All Done
 
-# Image
-- Schematic View 
-<img src="https://github.com/Azizkhasyi11/Arduino-GUI/blob/main/schematic.png?raw=true" alt="drawing" width="400"/>
-- Gui Image 
-<img src="https://github.com/Azizkhasyi11/Arduino-GUI/blob/main/gui.png?raw=true" alt="drawing" width="400"/>
+
+## Installation
+
+Install my-project with pip
+
+```bash
+  pip install -r requirements.txt
+  py main.py
+```
+    
+## Usage/Examples
+
+Building the arduino using this semantic view:
+![Semantic View](https://github.com/Azizkhasyi11/Arduino-GUI/blob/main/schematic.png?raw=true)
+
+
+## Screenshots
+
+![GUI Screenshots](https://github.com/Azizkhasyi11/Arduino-GUI/blob/main/gui.png?raw=true)
+
+
+## Authors
+
+- [@azizkhasyi11](https://github.com/Azizkhasyi11)
+
+
+## License
+
+[GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
+
